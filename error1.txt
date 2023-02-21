@@ -1,0 +1,9 @@
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\NghiaDo\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\NghiaDo\device.py", line 10, in get_device_info
+    output = subprocess.check_output(["adb", "shell", "getprop"]).decode("utf-8")
+             ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'subprocess' has no attribute 'check_output'
