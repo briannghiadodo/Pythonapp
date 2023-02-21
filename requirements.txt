@@ -1,0 +1,9 @@
+# Python 3.8.5
+
+# Dependencies
+requests
+xmltodict
+docopt
+
+# debug
+ipdb
