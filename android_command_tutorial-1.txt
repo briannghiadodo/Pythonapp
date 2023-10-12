@@ -1,0 +1,7 @@
+adb shell getprop
+adb shell dumpsys bluetooth_manager
+adb shell getprop >> device_name.txt
+adb shell  "service call iphonesubinfo 1 s16 com.android.shell | cut -c 52-66 | tr -d ' & "'.[:space:]'" & ' " (abdroid 12 aboce)
+adb  shell  "service call iphonesubinfo 1 | cut -c 52-66 | tr -d '.[:space:]' "(12 below)
+adb shell "getprop |grep -e model
+node pwg_imei_request.js >> device_name.xml
